@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+import joblib
 
 # Load the trained model
 pipeline = joblib.load('NeuralNetwork_pipeline.joblib')
